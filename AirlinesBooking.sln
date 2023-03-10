@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirlinesBooking.API", "AirlinesBooking.API", "{5023CCD1-7891-4A02-938E-2D8D05384FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirlinseBooking.Domain", "AirlinseBooking.Domain", "{CEEF1DC9-48BB-4C5B-9441-4CCF2C6189F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirlinesBooking.Application", "AirlinesBooking.Application", "{76629935-1D0A-4D6A-AD1C-DAD3AB2207AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AirlinesBooking.Infrastracture", "AirlinesBooking.Infrastracture", "{5164D0B4-3802-4437-BE98-C6EFFD1C522F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.API", "AirlinesBooking.API\AirlinesBooking.API.csproj", "{32ADBB97-B227-4DED-BB28-7CB3591627EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.API.Tests", "AirlinesBooking.API.Tests\AirlinesBooking.API.Tests.csproj", "{475421DA-646E-46D8-98D9-5F11D40A6561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Application", "AirlinesBooking.Application\AirlinesBooking.Application.csproj", "{D939634D-1469-4188-9295-5A7784D945F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Domain", "AirlinesBooking.Domain\AirlinesBooking.Domain.csproj", "{E4310728-C13F-473C-B202-E653AF477F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Domain.Tests", "AirlinesBooking.Domain.Tests\AirlinesBooking.Domain.Tests.csproj", "{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Infrastracture", "AirlinesBooking.Infrastracturer\AirlinesBooking.Infrastracture.csproj", "{3187903C-53AB-4CB0-89CB-E085308E4188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Infrastracture.Tests", "AirlinesBooking.Infrastracture.Tests\AirlinesBooking.Infrastracture.Tests.csproj", "{57EBEEDB-BFF1-4013-B52C-426387DA79C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlinesBooking.Application.Tests", "AirlinesBooking.Application.Tests\AirlinesBooking.Application.Tests.csproj", "{62FFF19B-AD22-453A-A4E5-5BD59061646C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32ADBB97-B227-4DED-BB28-7CB3591627EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ADBB97-B227-4DED-BB28-7CB3591627EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ADBB97-B227-4DED-BB28-7CB3591627EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ADBB97-B227-4DED-BB28-7CB3591627EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475421DA-646E-46D8-98D9-5F11D40A6561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475421DA-646E-46D8-98D9-5F11D40A6561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475421DA-646E-46D8-98D9-5F11D40A6561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475421DA-646E-46D8-98D9-5F11D40A6561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D939634D-1469-4188-9295-5A7784D945F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D939634D-1469-4188-9295-5A7784D945F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D939634D-1469-4188-9295-5A7784D945F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D939634D-1469-4188-9295-5A7784D945F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4310728-C13F-473C-B202-E653AF477F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4310728-C13F-473C-B202-E653AF477F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4310728-C13F-473C-B202-E653AF477F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4310728-C13F-473C-B202-E653AF477F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3187903C-53AB-4CB0-89CB-E085308E4188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3187903C-53AB-4CB0-89CB-E085308E4188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3187903C-53AB-4CB0-89CB-E085308E4188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3187903C-53AB-4CB0-89CB-E085308E4188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EBEEDB-BFF1-4013-B52C-426387DA79C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EBEEDB-BFF1-4013-B52C-426387DA79C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EBEEDB-BFF1-4013-B52C-426387DA79C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EBEEDB-BFF1-4013-B52C-426387DA79C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FFF19B-AD22-453A-A4E5-5BD59061646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FFF19B-AD22-453A-A4E5-5BD59061646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FFF19B-AD22-453A-A4E5-5BD59061646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FFF19B-AD22-453A-A4E5-5BD59061646C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32ADBB97-B227-4DED-BB28-7CB3591627EB} = {5023CCD1-7891-4A02-938E-2D8D05384FC2}
+		{475421DA-646E-46D8-98D9-5F11D40A6561} = {5023CCD1-7891-4A02-938E-2D8D05384FC2}
+		{D939634D-1469-4188-9295-5A7784D945F2} = {76629935-1D0A-4D6A-AD1C-DAD3AB2207AB}
+		{E4310728-C13F-473C-B202-E653AF477F2D} = {CEEF1DC9-48BB-4C5B-9441-4CCF2C6189F0}
+		{DBD4268E-DA30-415F-8F9C-6A2431A1C7B9} = {CEEF1DC9-48BB-4C5B-9441-4CCF2C6189F0}
+		{3187903C-53AB-4CB0-89CB-E085308E4188} = {5164D0B4-3802-4437-BE98-C6EFFD1C522F}
+		{57EBEEDB-BFF1-4013-B52C-426387DA79C3} = {5164D0B4-3802-4437-BE98-C6EFFD1C522F}
+		{62FFF19B-AD22-453A-A4E5-5BD59061646C} = {76629935-1D0A-4D6A-AD1C-DAD3AB2207AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE69F61C-4910-4BA0-A81B-86A2D394B695}
+	EndGlobalSection
+EndGlobal
